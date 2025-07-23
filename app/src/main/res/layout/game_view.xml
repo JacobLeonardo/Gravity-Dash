@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameViewContainer2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:background="@drawable/background">
+
+    <!-- Additional UI elements like score or buttons can go here -->
+
+    <edu.commonwealthu.finalproject.Background
+        android:id="@+id/scrollingBackgroundView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/game_icon" />
+
+
+    <ImageView
+        android:id="@+id/top_pipe"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/top_pipe"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/bottom_pipe"
+        android:layout_width="50dp"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bottom_pipe"
+        android:scaleType="fitXY" />
+
+
+</FrameLayout>
+

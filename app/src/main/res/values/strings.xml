@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Gravity Dash</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity strings -->
+    <string name="title_text">Gravity Dash</string>
+    <string name="start_game_text">Start Game!</string>
+    <string name="score">0</string>
+    <string name="loading">Welcome!</string>
+
+    <!-- Toolbar strings -->
+    <string name="menu_sound">Sound</string>
+    <string name="pause_game">Pause Game</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- Dialog strings -->
+    <string name="exit">Are you sure you want to exit the game?</string>
+    <string name="lose_message">OH NO YOU DIED!</string>
+    <string name="lose_question">Do you want to try again?</string>
+    <string name="new_game">Yes!</string>
+    <string name="exit_game">No</string>
+    <string name="score_is">Score:</string>
+    <string name="paused_game">Paused</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dialog_background">
+
+    <TextView
+        android:id="@+id/text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/title"
+        android:text="@string/lose_message" />
+
+
+
+        <TextView
+            android:id="@+id/your_score_was"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="32dp"
+            android:fontFamily="@font/title"
+            android:text="@string/score_is"/>
+
+
+    <TextView
+        android:id="@+id/dialog_game_points"
+        android:fontFamily="@font/scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:text="@string/score"/>
+
+
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="18dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/title"
+        android:text="@string/lose_question" />
+
+</LinearLayout>

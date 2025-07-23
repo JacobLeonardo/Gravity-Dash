@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.commonwealthu.finalproject.MainActivity">
+
+    <item
+        android:id="@+id/menu_sound_option"
+        android:icon="@drawable/sound"
+        android:title="@string/menu_sound"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_pause_option"
+        android:icon="@drawable/pause"
+        android:title="@string/pause_game"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+</menu>

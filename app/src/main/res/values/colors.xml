@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_game">#FF17E7</color>
+    <color name="toolbar_background">#748BA2</color>
+    <color name="dialog_background">#A5A5A5</color>
+
+    <!-- neon colors -->
+    <color name="neon_light">#8008c3fa</color>
+    <color name="neon_outline">#08c3fa</color>
+
+    <!-- Icon Color -->
+    <color name="first_layer">#BBDEFB</color>
+    <color name="second_layer">#64B5F6</color>
+    <color name="third_layer">#2196F3</color>
+    <color name="fourth_layer">#9C27B0</color>
+    <color name="center_layer">#4A148C</color>
+
+    <!-- Pipe Colors -->
+    <color name="first_color">#0FF5D1</color>
+    <color name="second_color">#0A2FFF</color>
+    <color name="third_color">#7B04FF</color>
+    <color name="start_texture_color">#10FFFFFF</color>
+    <color name="center_texture_color">#20FFFFFF</color>
+    <color name="texture_highlight">#50FFFFFF</color>
+    <color name="texture_overlay">#30FFFFFF</color>
+    <color name="shadow_start">#00000000</color>
+    <color name="shadow_center">#60000000</color>
+    <color name="shadow_end">#30000000</color>
+    <color name="shadow_distortion">#402A0F5D</color>
+
+</resources>

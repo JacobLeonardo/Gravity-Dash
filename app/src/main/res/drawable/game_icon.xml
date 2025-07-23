@@ -1,0 +1,39 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer Layer - Light Blue Square -->
+    <item android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/first_layer" /> <!-- Light blue color -->
+        </shape>
+    </item>
+
+    <!-- Second Layer - Medium Blue Square -->
+    <item android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/second_layer" /> <!-- Medium blue color -->
+        </shape>
+    </item>
+
+    <!-- Third Layer - Dark Blue Square -->
+    <item android:left="20dp" android:top="20dp" android:right="20dp" android:bottom="20dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/third_layer" /> <!-- Dark blue color -->
+        </shape>
+    </item>
+
+    <!-- Fourth Layer - Light Purple Square -->
+    <item android:left="30dp" android:top="30dp" android:right="30dp" android:bottom="30dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fourth_layer" /> <!-- Light purple color -->
+        </shape>
+    </item>
+
+    <!-- Center Layer - Dark Purple Square -->
+    <item android:left="40dp" android:top="40dp" android:right="40dp" android:bottom="40dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/center_layer" /> <!-- Dark purple color -->
+        </shape>
+    </item>
+
+</layer-list>
+
